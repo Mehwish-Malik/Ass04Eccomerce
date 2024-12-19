@@ -16,7 +16,7 @@ const Customers = () => {
       {/* Reviews Section */}
       <div className='flex flex-col md:flex-row md:space-x-6 justify-center items-centre mr-8'>
         {/* Review 1 */}
-        <div className='border-[1px] border-gray-300 rounded-xl p-4 w-full max-w-[300px] md:max-w-[350px] flex-col items-center'>
+        <div className='border-[1px] mx-auto border-gray-300 rounded-xl p-4 w-full max-w-[300px] md:max-w-[350px] md:mx-0 flex-col items-center'>
           <Image src={Feedback} alt="Customer Feedback" />
           <div className='flex items-center space-x-2 my-3'>
             <h1 className='font-bold text-[20px] leading-6 font-[Satoshi]'>Sarah M.</h1>

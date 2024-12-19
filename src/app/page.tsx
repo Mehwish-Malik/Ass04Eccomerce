@@ -6,6 +6,7 @@ import NewArrivals from "./Components/NewArrivals";
 import Topselling from "./Components/Topselling";
 import Style from "./Components/Style";
 import Customers from "./Components/Customers";
+import Footer from "./Components/Footer";
 const page = () => {
   return (
     <div>
@@ -16,6 +17,7 @@ const page = () => {
       <Topselling />
       <Style />
       <Customers />
+      <Footer />
     </div>
   );
 }
